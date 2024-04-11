@@ -34,7 +34,7 @@ public class MainActivityRobotiumTest {
         solo.waitForActivity(MainActivity.class);
         solo.assertCurrentActivity("MainActivity is not displayed", MainActivity.class);
         assertTrue("This is a test in EditText is not displayed",
-                solo.searchText("this is a test"));
+                solo.searchText("this is the test"));
         solo.clickOnButton("Click Me");
         assertTrue("You clicked me text is not displayed in the EditText",
                 solo.searchText("you clicked me!"));
