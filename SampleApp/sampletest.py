@@ -24,7 +24,7 @@ runComponent = package + '/' + activity
 emulator.startActivity(runComponent)
 
 # wait for the screen to fully come up
-MonkeyRunner.sleep(2.0)
+MonkeyRunner.sleep(3.0)
 
 # Takes a screenshot
 snapshot = emulator.takeSnapshot()
