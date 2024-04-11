@@ -33,7 +33,7 @@ snapshot = emulator.takeSnapshot()
 snapshot.writeToFile('mainactivity.png','png')
 
 # Alert the user a testing is about to be run by MonkeyRunner
-MonkeyRunner.alert("Instrumented test about to execute","Monkeyrunner","OK")
+MonkeyRunner.alert("Your instrumented test about to execute","Monkeyrunner","OK")
 
 #kick off the instrumented test
 emulator.shell('am instrument -w in.ravidsrk.sample.test/android.support.test.runner.AndroidJUnitRunner')
