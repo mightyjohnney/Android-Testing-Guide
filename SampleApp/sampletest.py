@@ -2,7 +2,7 @@
 from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice, MonkeyImage
 
 # Alert the user a MonkeyRunner script is about to execute
-MonkeyRunner.alert("Monkeyrunner about to execute","Monkeyrunner","OK")
+MonkeyRunner.alert("Your Monkeyrunner about to execute","Monkeyrunner","OK")
 
 # Connects to the current emulator
 emulator= MonkeyRunner.waitForConnection()
